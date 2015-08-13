@@ -18,5 +18,5 @@ sudo -u tomcat /opt/scripts/thread_dump.sh
 0 * * * * tomcat /opt/scripts/thread_dump.sh
 
 ## Notes
--  This thing doesn't accept any arguments so you'll need to modify the scripts/thread_dump
--  You'll also need to create the log directory defined in the LOG_DIRECTORY variable
+-  This thing doesn't accept any arguments so you'll need to modify the script
+-  You'll also need to create the log directory defined in the LOG_DIRECTORY variable before running this script
